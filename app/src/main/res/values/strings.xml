@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AP Font icons </string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="label">Android Practice - Using IconMoon fonts</string>
+</resources>

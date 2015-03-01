@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/values/strings_icons.xml -->
+<resources>
+    <string name="icon_camera">\ue90e</string>
+    <string name="icon_play">\ue912</string>
+    <string name="icon_headphone">\ue910</string>
+</resources>

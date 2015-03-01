@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/icon_camera"
+        android:id="@+id/tv_camera"
+        android:textColor="#ff3bb5ff"
+        android:textSize="40sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="65dp" />
+
+    <TextView
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/icon_play"
+        android:id="@+id/tv_play"
+        android:textSize="40sp"
+        android:textColor="#ffff123e"
+        android:layout_below="@+id/tv_camera"
+        android:layout_alignLeft="@+id/tv_camera"
+        android:layout_alignStart="@+id/tv_camera"
+        android:layout_marginTop="45dp" />
+
+    <TextView
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Set at run time"
+        android:id="@+id/tv_headPhone"
+        android:textSize="40sp"
+        android:layout_below="@+id/tv_play"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="66dp" />
+
+</RelativeLayout>
